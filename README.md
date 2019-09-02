@@ -1,2 +1,3 @@
 # google-homepage-clone
-Google Homepage Clone from The Odin Project Curriculum
+Google Homepage Clone from The Odin Project Curriculum (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+
