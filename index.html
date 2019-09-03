@@ -6,16 +6,20 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <ul id="navbar">
-        <li class="left"><a href="">About</a></li>
-        <li class="left"><a href="">Store</a></li>
-        <li class="right sign-in"><a href="">Sign in</a></li>
-        <li class="right"><a href="">Apps</a></li>
-        <li class="right"><a href="">Images</a></li>
-        <li class="right"><a href="">Gmail</a></li>
-    </ul>
+    <div id="navbar">
+        <div class="nav-left">
+            <a href="">About</a>
+            <a href="">Store</a>
+        </div>
+        <div class="nav-right">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <a href=""><img class="apps" src="images/apps.png" alt="Google apps"></a>
+            <button class="sign-in">Sign in</button>
+        </div>
+    </div>
 
-    <img class="logo" src="images/google-logo-labor-day.png" alt="Google labor day logo">
+    <img class="logo" src="images/standard-logo.png" alt="Google labor day logo">
 
     <form>
         <input type="text" name="search-text"><br>
@@ -24,12 +28,16 @@
     </form>
 
     <ul id="footer">
-        <li class="left"><a href="">Advertising</a></li>
-        <li class="left"><a href="">Business</a></li>
-        <li class="left"><a href="">How Search works</a></li>
-        <li class="right"><a href="">Settings</a></li>
-        <li class="right"><a href="">Terms</a></li>
-        <li class="right"><a href="">Privacy</a></li>
+        <div>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+        </div>
+        <div>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </div>
     </ul>
 </body>
 </html>
